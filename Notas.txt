@@ -1,0 +1,16 @@
+*Contructor*:
+- Dar un estado inicial a cada objeto.
+- Tiene el mismo nombre de la clase.
+- Son los parámetros mínimos que necesita el objeto para
+  que pueda vivir.
+
+No se puede crear un objeto si no se pasan los datos mínimos
+requeridos.
+
+Python
+def__init__(self, name):
+    self.name = name
+
+En las nuevas versiones de javascript se hizo muy parecida la creación
+de clases(prototipos) a Java y se uso "constructor" como
+palabra reservada para crear el constructor de la clase
