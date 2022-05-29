@@ -1,7 +1,12 @@
 class Payment {
+    id;
 
-    constructor() {
+    constructor(id) {
         this.id;
     }
     
+    printPayment() {
+        console.log(id);
+        
+    }
 }
